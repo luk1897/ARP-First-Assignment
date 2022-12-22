@@ -43,7 +43,7 @@ execute run.src
 
 ## User guide
 
-## KONSOLE COMMAND
+### KONSOLE COMMAND
 
 Vx++: it increases horizontal velocity by 1
 Vx--: it decreases horizontal velecity by 1
@@ -55,7 +55,7 @@ Vz stop: it sets the vertical velocity to zero
 
 The upper and lower upper limit of velocity is +3/-3
 
-## KONSOLE INSPECTION
+### KONSOLE INSPECTION
 
 S: it stops both engines
 
