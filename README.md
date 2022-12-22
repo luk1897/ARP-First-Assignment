@@ -33,13 +33,19 @@ This process checks that no command is sent from the command for 60 seconds, the
 
 ### Install ncurses
 
-sudo apt-get install libncurses-dev
+`sudo apt-get install libncurses-dev` 
 
-execute install.src
+Then
+
+`chmod +x install.src` 
+
+` ./install.src` 
 
 ## Run
 
-execute run.src
+`chmod +x run.src` 
+
+`./run.src` 
 
 ## User guide
 
