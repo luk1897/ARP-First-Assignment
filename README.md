@@ -35,6 +35,10 @@ This process checks that no command is sent from the command for 60 seconds, the
 
 `sudo apt-get install libncurses-dev` 
 
+### Install Konsole
+
+`sudo apt-get install konsole` 
+
 Then
 
 `chmod +x install.src` 
