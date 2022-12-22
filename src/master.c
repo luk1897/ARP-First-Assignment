@@ -59,7 +59,13 @@ int spawn(const char *program, char **arg_list){
         return child;
     
     else{
-        controller(execvp(program, arg_list),__LINE__);
+        execvp(program, arg_list);
+        fprintf(stderr,"Master ERROR: %s. Line: %d\n",strerror(errno),line);
+        fflush(stderr);
+        fprintf(logfile,"TIME: %s PID: %d ERROR: %s. Line: %d\n",ctime(&curtime),getpid(),strerror(errno),line);
+        fflush(logfile);
+        fclose(logfile);
+        exit(EXIT_FAILURE);
     }
 }
 
