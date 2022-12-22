@@ -1,6 +1,3 @@
-mkdir bin &
-mkdir logfiles &
-
 gcc src/master.c -o bin/master
 gcc src/cmd.c -lncurses -o bin/cmd
 gcc src/inspection.c -lncurses -lm -o bin/inspection
